@@ -44,11 +44,13 @@ That's all there is to it. Now, any application you create within your "parked" 
 
 ## Local Development with Browsersync & Tailwind
 
-https://www.brianliddell.com/blog/how-to-set-up-local-development-for-kirby-and-tailwind-using-the-command-line-on-macos
+[How to set up local development for Kirby and Tailwind — using the command line on macOS](https://www.brianliddell.com/blog/how-to-set-up-local-development-for-kirby-and-tailwind-version-2)
+
+[Tailwinds Docs](https://tailwindcss.com/docs/utility-first)
 
 After the above is complete to run browsersyc:
 
-    browser-sync start --proxy "https://deegoo-tattoo.test" --files "assets/style.css, site/snippets/*.php, site/templates/*.php, content/*/*.txt, content/*/*/*.txt, content/*/*/*/*.txt"
+    browser-sync start --proxy "https://deegoo-tattoo.test" --files "assets/style.css, site/snippets/*.php, site/templates/*.php, content/**/*.txt"
 
 Also, in a new terminal window run `npm run watch` to watch the changes on style.css.
 

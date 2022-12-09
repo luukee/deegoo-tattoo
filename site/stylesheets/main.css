@@ -1,10 +1,8 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
 
-/* ---- custom css and @apply components go here ---- */
+@import "custom-1.css";
+@import "custom-2.css";
+/* ---- etc ---- */
 
-@tailwind utilities;
-
-body {
-  background-color: red;
-}
+@import "tailwindcss/utilities";
