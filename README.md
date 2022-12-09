@@ -36,9 +36,9 @@ If you are familiar with Git, you can clone Kirby's Starterkit repository from G
 
 ## Local Development with Valet
 
-To run valet run:
+To run valet run the [park](https://laravel.com/docs/8.x/valet#serving-sites) command:
 
-    [park](https://laravel.com/docs/8.x/valet#serving-sites)
+    valet park
 
 That's all there is to it. Now, any application you create within your "parked" directory will automatically be served using the http://<directory-name>.test.
 
