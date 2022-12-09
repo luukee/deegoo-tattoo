@@ -2,11 +2,11 @@ Title: Home
 
 ----
 
-Headline: Welcome to Kirby's Starterkit
+Headline: Welcome to Deegoo's Tattoo Website
 
 ----
 
-Subheadline: A fully documented example project
+Subheadline: Deegoo/Kait is a professional artist and designer.
 
 ----
 

@@ -34,6 +34,14 @@ If you are familiar with Git, you can clone Kirby's Starterkit repository from G
 - **[Twitter](https://twitter.com/getkirby)** – Spread the word.
 - **[Instagram](https://www.instagram.com/getkirby/)** – Share your creations: #madewithkirby.
 
+## Local Development with Valet
+
+To run valet run:
+
+    [park](https://laravel.com/docs/8.x/valet#serving-sites)
+
+That's all there is to it. Now, any application you create within your "parked" directory will automatically be served using the http://<directory-name>.test.
+
 ---
 
 © 2009-2022 Bastian Allgeier  

@@ -9,4 +9,5 @@
  */
 return [
     'debug' => true,
+    'url' => isset($_SERVER['HTTP_X_FORWARDED_HOST']) ?  'https://' . $_SERVER['HTTP_X_FORWARDED_HOST'] : 'https://deegoo-tattoo.test/',
 ];
