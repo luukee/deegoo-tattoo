@@ -42,6 +42,16 @@ To run valet run the [park](https://laravel.com/docs/8.x/valet#serving-sites) co
 
 That's all there is to it. Now, any application you create within your "parked" directory will automatically be served using the http://<directory-name>.test.
 
+## Local Development with Browsersync & Tailwind
+
+https://www.brianliddell.com/blog/how-to-set-up-local-development-for-kirby-and-tailwind-using-the-command-line-on-macos
+
+After the above is complete to run browsersyc:
+
+    browser-sync start --proxy "https://deegoo-tattoo.test" --files "assets/style.css, site/snippets/*.php, site/templates/*.php, content/*/*.txt, content/*/*/*.txt, content/*/*/*/*.txt"
+
+Also, in a new terminal window run `npm run watch` to watch the changes on style.css.
+
 ---
 
 © 2009-2022 Bastian Allgeier  

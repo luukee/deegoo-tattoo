@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+/* ---- custom css and @apply components go here ---- */
+
+@tailwind utilities;
+
+body {
+  background-color: red;
+}
