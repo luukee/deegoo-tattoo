@@ -1,0 +1,29 @@
+{
+  "name": "deegoo-tattoo",
+  "version": "1.0.0",
+  "description": "<img src=\"http://getkirby.com/assets/images/github/starterkit.jpg\" width=\"300\">",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-nesting": "^10.2.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "watch": "postcss site/stylesheets/main.css -o assets/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luukee/deegoo-tattoo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luukee/deegoo-tattoo/issues"
+  },
+  "homepage": "https://github.com/luukee/deegoo-tattoo#readme"
+}
