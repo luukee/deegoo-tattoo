@@ -58,3 +58,7 @@ Also, in a new terminal window run `npm run watch` to watch the changes on style
 
 © 2009-2022 Bastian Allgeier  
 [getkirby.com](https://getkirby.com) · [License agreement](https://getkirby.com/license)
+
+## Update Kirby (for the future)
+
+- [Updating kirby](https://getkirby.com/docs/cookbook/setup/git#updating-kirby)
