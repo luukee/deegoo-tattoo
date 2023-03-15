@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap');
 
-body {
+.main {
   font-family: 'Martian Mono', monospace;
+
 }

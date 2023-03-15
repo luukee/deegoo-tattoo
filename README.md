@@ -48,11 +48,23 @@ That's all there is to it. Now, any application you create within your "parked" 
 
 [Tailwinds Docs](https://tailwindcss.com/docs/utility-first)
 
-After the above is complete to run browsersyc:
+#### After the above is complete:
+
+- To run Valet run:
+    valet park
+    
+- To run browsersyc:
 
     browser-sync start --proxy "https://deegoo-tattoo.test" --files "assets/style.css, site/snippets/*.php, site/templates/*.php, content/**/*.txt"
 
-Also, in a new terminal window run `npm run watch` to watch the changes on style.css.
+- To watch file changes, in a new terminal window run 
+    
+    npm run watch
+    
+For my (luukee) install only:
+
+- Panel: https://deegoo-tattoo.test/panel/site
+- Browsersync: https://localhost:3001/
 
 ---
 
